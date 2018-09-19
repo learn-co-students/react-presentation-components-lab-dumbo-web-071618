@@ -20,10 +20,6 @@ import React from 'react'
 //     }
 // }
 
-const handleClick = (e) => {
-    console.log('The div be like it do.')
-}
-
 const SimplerComponent = (props) => {
     return (
         <div onClick={props.handleClick}>
